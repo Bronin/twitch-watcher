@@ -1,0 +1,85 @@
+body {
+    background-color: #17141f;
+  }
+  
+  .nav-bar {
+    background-color: #392e5c;
+    color: #afacb4;
+  }
+  
+  
+  .ui-btn {
+    background-color: #6441a4;
+    color: #dad8de;
+    border-radius: 0px;
+    border-width: 3px;
+    box-sizing: border-box;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  
+  .ui-btn-active{
+    font-weight: bold;
+    border-color: #9478c9;
+    border-radius: 0px;
+    box-shadow: 0 0 3px;
+  }
+  
+  .ui-btn-inactive{
+    background-color: #362359;
+  }
+  
+  .status-btn {
+    padding-top: 25%;
+    padding-bottom: 25%;
+    padding-right: 1%;
+    padding-left: 1%;
+    width: 100%;
+  }
+  
+  .ui-btn:hover {
+    color: #dad8de;
+    background-color: #7d5bbe !important;
+  }
+  
+  .ui-btn:focus {
+    background-color: #7d5bbe;
+    border-color: #9478c9;
+    border-radius: 0px;
+    box-shadow: 0 0 3px;
+  }
+  
+  .ui-btn:active {
+    background-color: #6441a4;
+    border-color: #9478c9;
+    box-shadow: 0 0 3px #9478c9;
+  }
+  
+  .channels-row {
+    background-color: #201c2b;
+    color: #afacb4;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  
+  .thumbnail-logo {
+    width: auto;
+    height: auto;
+    padding-bottom: 10%;
+    padding-top: 10%;
+  }
+  
+  .channel-title {
+    background-color: #392e5c;
+    color: #afacb4;
+    margin-top: 2%;
+    padding-bottom: 0.5%;
+  }
+  
+  .footer-bar {
+    background-color: #392e5c;
+    color: #afacb4;
+    margin-top: 1%;
+    padding-top: 1%;
+  }
+  

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Font and external scripts -->
+    <link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- App specific style and scripts -->
+    <link rel="stylesheet" type="text/css" href="appstyle.css">
+    <title>Twitch Stream Watcher - Jordan Roquet</title>
+  </head>
+  <body>
+    <div class="container main-column">
+      <div class="row row-eq-height nav-bar">
+        <div class="col-sm-8 align-self-center text-center">
+          <h1><strong>Twitch Streams</strong></h1>
+        </div>
+        <div class="col-sm-4 ml-auto">
+          <button id="all" class="btn btn-block ui-btn ui-btn-active">All</button>
+          <button id="online" class="btn btn-block ui-btn">Online</button>
+          <button id="offline" class="btn btn-block ui-btn">Offline</button>
+          <button id="refresh" class="btn btn-block ui-btn">Refresh</button>
+        </div>
+      </div>
+      <div id="streamRow">
+      </div>
+      <div class="row">
+        <div class="col-sm-12 footer-bar">
+          <p class="footer text-center">Site coded by Jordan Roquet, theming taken from <a href="www.twitch.tv">Twitch</a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <script type="text/javascript" src="appscript.js"></script>
+  </footer>
+</html>
+  
